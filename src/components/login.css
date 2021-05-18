@@ -1,0 +1,45 @@
+.login-container {
+  width: 50%;
+  margin: 50px auto 0 auto;
+}
+
+.login-form {
+  background-color: rgb(225, 225, 225);
+  padding: 50px 30px;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  margin: 20px 0;
+}
+
+.login-form form input[name="name"],
+.login-form form input[name="email"],
+.login-form form input[name="description"] {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.login-form form input[name="name"]:focus,
+.login-form form input[name="email"]:focus,
+.login-form form input[name="description"]:focus {
+  outline: none;
+}
+
+.button {
+  width: 150px;
+  border: 1px solid transparent;
+  background-color: violet;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
